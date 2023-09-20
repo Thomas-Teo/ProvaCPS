@@ -1,4 +1,3 @@
-package ExercicioAvaliativo;
 
 public class Cliente extends Pessoa {
 
@@ -13,12 +12,12 @@ public class Cliente extends Pessoa {
 	public String calcularIdade() {
 		
 		if (this.getIdade() < 16) {
-			throw new RuntimeException(this.getNome() + " não poderá ter um cadastro devido idade ser menor do que 16 anos");
+			throw new RuntimeException(this.getNome() + " nï¿½o poderï¿½ ter um cadastro devido idade ser menor do que 16 anos");
 		}
 		
 		return getIdade() >= 16 && getIdade() < 18
-				? "Cliente " + getNome() + " poderá ter um cadastro desde que tenha aprovação de um responsável"
-				: "Cliente " + getNome() + " poderá ter um cadastro sujeito a consulta SPC";
+				? "Cliente " + getNome() + " poderï¿½ ter um cadastro desde que tenha aprovaï¿½ï¿½o de um responsï¿½vel"
+				: "Cliente " + getNome() + " poderï¿½ ter um cadastro sujeito a consulta SPC";
 	}
 
 }

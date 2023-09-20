@@ -1,4 +1,3 @@
-package ExercicioAvaliativo;
 
 public abstract class Pessoa {
 	// Atributos
